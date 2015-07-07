@@ -130,10 +130,9 @@ public class Explorador extends ListActivity {
         /*
         *En esta parte del código vamos a tener la ruta del archivo o carpeta en donde hacemos
         * clic en el listview.
+        * ...
         * */
-
         File archivo = new File(listaRutasArchivos.get(position));
-
         /*
         En esta parte de código va a mostrar en forma de popup un mensaje en donde nos va a
         decir el archivo que hemos seleccionado y se va a cargar los archivos que contiene
@@ -147,6 +146,7 @@ public class Explorador extends ListActivity {
             /*
             * Si no es un archivo vamos a mostrar los archivos que contiene el directorio.
             * */
+
             verArchivosDirectorio(listaRutasArchivos.get(position));
         }
 

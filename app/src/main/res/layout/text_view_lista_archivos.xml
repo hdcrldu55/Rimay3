@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="50dp" 
     android:gravity="center_vertical"/>
+
+    <!---
+    match_parent: significa que va a ser tan igual que el layout padre
+    y no va a tener relleno.
+
+    dip == dp =>
+    independiente de la densidad Píxeles - una unidad abstracta que se
+    basa en la densidad física de la pantalla.
+    Estas unidades son en relación con una pantalla de 160 dpi,
+    por lo que uno dp es un píxel en una pantalla de 160 dpi.
+    La relación de dp-a píxel cambiará con la densidad de pantalla,
+    pero no necesariamente en proporción directa.
+
+
+    android:gravity establece como va aetsar el view en la aplicacion en este
+    caso es en el centro y vertical
+    -->
